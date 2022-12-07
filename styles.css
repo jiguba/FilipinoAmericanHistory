@@ -18,6 +18,13 @@ body {
   height: 100vh;
 }
 
+.image_container {
+  height: 60vh;
+  width: 45vw;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 .introduction {
   background: #fdf0d5;
   display: flex;
@@ -31,15 +38,18 @@ body {
 }
 
 .picture {
-  background-color: white;
+  background-color: #c6d8d3;
   border-radius: 10px;
-  width: 400px;
-  height: 300px;
+  height: 60vh;
+  width: 45vw;
   overflow: hidden;
 }
 
 .pic {
+  height: 60vh;
+  width: 45vw;
 }
+
 #title_picture {
   text-align: center;
 }
