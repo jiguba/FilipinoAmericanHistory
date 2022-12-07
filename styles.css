@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+#main {
+  clear: both;
+  overflow-wrap: break-word;
+}
+
+body {
+  font-family: "Trebuchet MS";
+  background-color: #c6d8d3;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.introduction {
+  background: #fdf0d5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.column {
+  flex: 50%;
+}
+
+.picture {
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.pic {
+}
+#title_picture {
+  text-align: center;
+}
+
+#title {
+  font-weight: 600;
+  font-size: 3em;
+  text-align: left;
+  color: #d81e5b;
+  text-shadow: 2px 1px #c6d8d3;
+  padding-left: 3vw;
+}
+
+#filipino_workers {
+  width: 45vw;
+  height: 68vh;
+  border: 1px solid;
+  box-shadow: 2px 2px #3a3335;
+}
+
+section {
+  width: 92vw;
+  height: 96vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+hr {
+  background-color: #3a3335;
+  border-style: none;
+  height: 1px;
+  width: 100%;
+}
+
+iframe {
+  height: 60vh;
+  width: 45vw;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
